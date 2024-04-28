@@ -1,10 +1,6 @@
-import './styles.css';
+import Header from "../../global/components/Header";
 
 function Home() {
-  return (
-    <div className='home'>
-      <h1>Testee</h1>
-    </div>
-  );
+  return <Header />;
 }
 export default Home;

@@ -1,0 +1,29 @@
+* {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.nav {
+  display: flex;
+}
+
+.h1 {
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.li {
+  margin: 0 10px;
+}
