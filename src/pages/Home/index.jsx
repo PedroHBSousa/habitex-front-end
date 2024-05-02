@@ -1,11 +1,16 @@
 import Header from "../../global/components/Header";
-import BatchCard from "../../global/components/BatchCard";
+import Background from "../../global/components/Background";
 
 function Home() {
+  const imageUrls = [
+    require("../../assets/img/background.jpg"),
+    require("../../assets/img/image2.jpg"),
+  ];
+  const teste = 0;
   return (
     <div>
       <Header />
-      <BatchCard />
+      <Background imageUrl={imageUrls[teste]} />
     </div>
   );
 }

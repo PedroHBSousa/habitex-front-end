@@ -7,7 +7,9 @@ export const GlobalStyles = createGlobalStyle`
         font-style: italic; */
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
+        
     }
+    
 `;
 export default GlobalStyles;

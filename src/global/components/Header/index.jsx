@@ -1,17 +1,17 @@
-import styles from "./styles.module.css";
+import "./styles.css";
 
 function Header() {
   return (
-    <header className={styles.header}>
-      <h1>Habitex</h1>
-      <nav className={styles.nav}>
-        <ul className={styles.ul}>
-          <li className={styles.li}>Home</li>
-          <li className={styles.li}>Sobre Nós</li>
-          <li className={styles.li}>Contato</li>
+    <div className="header">
+      <div className="logo">Habitex</div>
+      <nav className="nav">
+        <ul className="ul">
+          <li className="li">HOME</li>
+          <li className="li">QUEM SOMOS</li>
+          <li className="li">CONTATO</li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 }
 
