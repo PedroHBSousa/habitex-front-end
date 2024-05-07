@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import './styles.css';
 
@@ -20,6 +21,23 @@ function Header() {
         </section>
     </div>
     );
+=======
+import "./styles.css";
+
+function Header() {
+  return (
+    <div className="header">
+      <div className="logo">Habitex</div>
+      <nav className="nav">
+        <ul className="ul">
+          <li className="li">HOME</li>
+          <li className="li">QUEM SOMOS</li>
+          <li className="li">CONTATO</li>
+        </ul>
+      </nav>
+    </div>
+  );
+>>>>>>> f7e5f23abb8099dbabb39a3b8d9962dddadcc850
 }
   
 export default Header;
