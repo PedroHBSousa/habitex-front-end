@@ -1,0 +1,39 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    display: flex; /* Ativar flexbox no contêiner da imagem */
+    height: 715px;
+    justify-content: right;
+    
+}
+
+.content {
+  flex-direction: row;
+}
+
+.image-content {
+    max-width: 100%;
+    width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    height: auto; /* Faz com que a altura da imagem seja ajustada automaticamente para manter a proporção */
+   
+}
+
+.image {
+    order: 2;
+}
+
+.container-text {
+    color: rgb(255, 255, 255);
+    justify-items: left;
+    order: 1;
+}
+.about-us-section {
+    background-color: rgb(0, 0, 0);
+    margin-top: 230px;
+    padding: 0;
+    display: flex;
+}

@@ -1,0 +1,49 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+    height: 250px;
+    background-color: #000;
+    display: flex;
+    
+    
+}
+
+.footer-content {
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+    
+    color: white;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-buttons button {
+    background-color:  rgb(255, 196, 0);;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.social-buttons button:hover {
+    background-color: rgb(228, 194, 84);
+}
+
+.footer-content span {
+    color: rgb(255, 196, 0);
+}
+
+.footer-content h1,span {
+    margin-bottom: 30px;
+    margin-right: ;
+    
+}
+
