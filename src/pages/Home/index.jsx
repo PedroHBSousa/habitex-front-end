@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import Header from '../../global/Components/Header';
 import AboutUs from '../AboutUs';
@@ -54,27 +53,8 @@ function Home() {
           <Footer />
         </div>
       </section>
-=======
-import Header from "../../global/components/Header";
-import Background from "../../global/components/Background";
-
-function Home() {
-  const imageUrls = [
-    require("../../assets/img/background.jpg"),
-    require("../../assets/img/image2.jpg"),
-  ];
-  const teste = 0;
-  return (
-    <div>
-      <Header />
-      <Background imageUrl={imageUrls[teste]} />
->>>>>>> f7e5f23abb8099dbabb39a3b8d9962dddadcc850
     </div>
   );
 }
 
-<<<<<<< HEAD
 export default Home;
-=======
-export default Home;
->>>>>>> f7e5f23abb8099dbabb39a3b8d9962dddadcc850
