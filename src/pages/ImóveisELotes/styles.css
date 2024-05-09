@@ -1,19 +1,41 @@
 .lotes-section {
+    background-color: #141414;
+    height: 750px;
+}
+
+.container {
+    color: white;
+}
+
+.lotes-section {
     padding: 50px 0;
+
 }
 
 .card-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 105px;
+    padding-bottom: 30px;
 }
 
 .card {
-    width: 300px;
+
+    background-color: #000000;
+    width: 400px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    border: 2px solid black;
+    /* Adiciona uma borda preta de 2px */
 }
 
 .card:hover {
@@ -32,12 +54,13 @@
 
 .card-title {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    color: #fff;
 }
 
 .card-description {
     font-size: 16px;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -45,7 +68,7 @@
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -53,4 +76,26 @@
 
 .btn:hover {
     background-color: #0056b3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.linha {
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 20px 0;
+    width: 300px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bolder;
+    color:#007bff;
+}
+
+.card-content p {
+    padding-bottom: 20px;
 }

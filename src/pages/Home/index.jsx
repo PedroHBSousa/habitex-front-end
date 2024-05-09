@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ScrollToTop from "react-scroll-to-top";
 import Header from '../../global/Components/Header';
 import AboutUs from '../AboutUs';
 import ImóveisELotes from '../ImóveisELotes';
@@ -9,6 +10,7 @@ import Background2 from '../../assets/img/bg2.jpg';
 import Background3 from '../../assets/img/bg3.jpg';
 import Background4 from '../../assets/img/bg4.jpg';
 import './styles.css';
+
 
 function Home() {
   const [currentBackground, setCurrentBackground] = useState(0);
@@ -32,23 +34,30 @@ function Home() {
           <h1>Habitex<span>group</span></h1>
           <li><a href="#QuemSomos">Quem Somos</a></li>
           <li><a href="#Imóveis e Lotes">Imóveis e Lotes</a></li>
-          <li><button href="#Fale Conosco">Fale Conosco</button></li>
+          <a href="https://www.instagram.com/habitexgroup/">
+          <li><button href="https://www.instagram.com/habitexgroup/">Fale Conosco</button></li>
+          </a>
         </ul>
       </nav>
       <div className='header'>
-      <Header />
+        <Header />
       </div>
-      <div className="about-us">
-        <AboutUs />
-      </div>
-      <div className="lotes">
-        <ImóveisELotes />
-      </div>
+      <ScrollToTop smooth />
+      <section id="QuemSomos" className="section">
+        <div className="about-us">
+          <AboutUs />
+        </div>
+      </section>
+      <section id="Imóveis e Lotes" className="section">
+        <div className="lotes">
+          <ImóveisELotes />
+        </div>
+      </section>
       <div className='background'>
         <div className="background-overlay"></div>
         <img src={backgrounds[currentBackground]} className='background-img' alt="Fundo do site" title="Fundo" />
       </div>
-      <section id="#Footer">
+      <section id="#Fale Conosco" className="section">
         <div>
           <Footer />
         </div>

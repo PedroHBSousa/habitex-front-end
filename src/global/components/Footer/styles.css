@@ -1,49 +1,44 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .footer {
+    padding: 0;
+    margin:0 ;
     height: 250px;
     background-color: #000;
     display: flex;
-    
-    
+
 }
 
-.footer-content {
-    padding: 0;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 60px;
-    
+.main-text {
+    font-size: 25px;
+    padding: 50px;
+    padding-left: 150px;
+    color: #5a5a5a;
+}
+
+.main-text span {
+    color: #fff;
+}
+
+.linha-separadora {
+    margin: 0px 0; /* Espaçamento acima e abaixo da linha */
+    margin-left: 150px;
+    margin-right: 150px;
+    border: none; /* Remove a borda padrão */
+    height: 1px; /* Altura da linha */
+    background-color: #ffffff; /* Cor da linha (neste caso, preto) */
+    width: 1250px;
+}
+.content-copy {
+    padding-top: 95px;
+    font-size: 10px;
+    color:#ffffff;
+    text-align: center;
+}
+
+.content {
     color: white;
 }
-
-.contact-list {
-    list-style: none;
-    padding: 0;
-}
-
-.social-buttons button {
-    background-color:  rgb(255, 196, 0);;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-.social-buttons button:hover {
-    background-color: rgb(228, 194, 84);
-}
-
-.footer-content span {
-    color: rgb(255, 196, 0);
-}
-
-.footer-content h1,span {
-    margin-bottom: 30px;
-    margin-right: ;
-    
-}
-

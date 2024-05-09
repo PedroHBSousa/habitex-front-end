@@ -6,19 +6,20 @@
 
 .image {
     display: flex; /* Ativar flexbox no contêiner da imagem */
-    height: 715px;
+    height: 754px;
     justify-content: right;
     
 }
 
 .content {
   flex-direction: row;
+
 }
 
 .image-content {
     max-width: 100%;
     width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
-    height: auto; /* Faz com que a altura da imagem seja ajustada automaticamente para manter a proporção */
+    height: 754px; /* Faz com que a altura da imagem seja ajustada automaticamente para manter a proporção */
    
 }
 
@@ -27,8 +28,10 @@
 }
 
 .container-text {
-    color: rgb(255, 255, 255);
-    justify-items: left;
+    color: white;
+    margin: 100px;
+    justify-items: center;
+    font-size: 30px;
     order: 1;
 }
 .about-us-section {
