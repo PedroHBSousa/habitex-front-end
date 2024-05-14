@@ -4,36 +4,67 @@
     margin: 0;
 }
 
-.image {
-    display: flex; /* Ativar flexbox no contêiner da imagem */
-    height: 754px;
-    justify-content: right;
-    
+
+.about-us-section {
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    height: 786px;
 }
 
 .content {
   flex-direction: row;
-
+    height: 100%;
+    width: 100%;
 }
 
-.image-content {
-    max-width: 100%;
-    width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
-    height: 754px; /* Faz com que a altura da imagem seja ajustada automaticamente para manter a proporção */
-   
+.container-text1 {
+    backdrop-filter: blur(3px); /* Adiciona um efeito de desfoque com raio de 10 pixels */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px;
+    color: rgb(0, 0, 0);
+    justify-items: center;
+    font-size: 30px;
 }
 
-.image {
-    order: 2;
+.container-text1 h1 {
+    padding-bottom: 10px;    
 }
 
-.container-text {
-    color: white;
+.container-text1 h6 {
+    background-color: linear-gradient(to top right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 60%,
+    rgba(0, 0, 0, 1)
+     100%);;
+}
+
+/*Texto do container "Nossa historia" */
+.container-text2 {
+    backdrop-filter: blur(3px); /* Adiciona um efeito de desfoque com raio de 10 pixels */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
     margin: 100px;
     justify-items: center;
     font-size: 30px;
-    order: 1;
+    
 }
+
+.container-text2 h1 {
+    padding-bottom: 10px;    
+}
+
+.container-text h6 {
+    background-color: linear-gradient(to top right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 60%,
+    rgba(0, 0, 0, 1)
+     100%);;
+}
+
 .about-us-section {
     background-color: rgb(0, 0, 0);
     margin-top: 230px;

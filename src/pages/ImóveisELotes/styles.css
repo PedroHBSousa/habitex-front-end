@@ -1,10 +1,10 @@
 .lotes-section {
-    background-color: #141414;
-    height: 750px;
+    background-color: #d1cece;
+    height: px;
 }
 
 .container {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .lotes-section {
@@ -28,13 +28,13 @@
 
 .card {
 
-    background-color: #000000;
+    background-color: #494848;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    border: 2px solid black;
+    box-shadow: #000;
     /* Adiciona uma borda preta de 2px */
 }
 
@@ -70,7 +70,7 @@
     background-color: #007bff;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 

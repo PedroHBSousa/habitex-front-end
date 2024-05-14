@@ -35,7 +35,7 @@ function Home() {
           <li><a href="#QuemSomos">Quem Somos</a></li>
           <li><a href="#Imóveis e Lotes">Imóveis e Lotes</a></li>
           <a href="https://www.instagram.com/habitexgroup/">
-          <li><button href="https://www.instagram.com/habitexgroup/">Fale Conosco</button></li>
+            <li><button href="https://www.instagram.com/habitexgroup/">Fale Conosco</button></li>
           </a>
         </ul>
       </nav>
@@ -56,7 +56,9 @@ function Home() {
       <div className='background'>
         <div className="background-overlay"></div>
         <img src={backgrounds[currentBackground]} className='background-img' alt="Fundo do site" title="Fundo" />
+        <img src={backgrounds[(currentBackground + 1) % backgrounds.length]} className={currentBackground === backgrounds.length - 1 ? 'background-img hidden' : 'background-img'} alt="Fundo do site" title="Fundo" hidden={currentBackground === backgrounds.length - 1} />
       </div>
+
       <section id="#Fale Conosco" className="section">
         <div>
           <Footer />

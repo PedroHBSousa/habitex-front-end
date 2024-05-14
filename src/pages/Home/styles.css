@@ -16,8 +16,6 @@ body {
     left: 0;
     width: 100%;
     background-color: transparent;/* Cor de fundo com transparência */
-    
-    
 }
 
 .navList {
@@ -86,6 +84,8 @@ body {
 
 .background-img {
     width: 100%;
+    opacity: 1;
+    transition: opacity 1s ease;
 }
 
 .background {
@@ -97,6 +97,11 @@ body {
     z-index: -1;
     overflow: hidden;
 }
+
+.background-img.hidden {
+    opacity: 0;
+}
+
 
 .background-overlay {
     position: absolute;
