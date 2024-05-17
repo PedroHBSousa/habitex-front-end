@@ -5,8 +5,7 @@
 
 .footer {
     padding: 0;
-    margin:0 ;
-    height: 300px;
+    margin: 0;
     background-color: #000;
     display: flex;
 
@@ -16,11 +15,11 @@
     font-size: 25px;
     padding: 50px;
     padding-left: 150px;
-    color: #5a5a5a;
+    color: #696969;
 }
 
 .main-text span {
-    color: #fff;
+    color: #ffffff;
     font-size: 27px;
     
 }

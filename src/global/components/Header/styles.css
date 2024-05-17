@@ -1,25 +1,17 @@
-
-
 *{
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
 }
-
+.container-header {
+    height: 380px;
+}
 .Section1 {
+    text-align: justify;
     font-size: 25px;
     font-weight: 600;
     color: white;
     margin-left: 240px;
-    padding-top: 190px;
-    
+    padding-top: 200px;
 }
 
-.Section2 {
-    font-weight: 200;
-    margin-top: 10px;
-    font-size: 15px;
-    color: white;
-    margin-left: 240px;
-
-}

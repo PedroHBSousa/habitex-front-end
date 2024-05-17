@@ -2,17 +2,32 @@ import React, { useState, useEffect } from 'react';
 import ScrollToTop from "react-scroll-to-top";
 import Header from '../../global/Components/Header';
 import AboutUs from '../AboutUs';
-import ImóveisELotes from '../ImóveisELotes';
 import Footer from '../../global/Components/Footer';
-//import Logo from '../../assets/img/logo.png';
+import Logo from '../../assets/img/logo 1.svg';
 import Background from '../../assets/img/bg.jpg';
 import Background2 from '../../assets/img/bg2.jpg';
 import Background3 from '../../assets/img/bg3.jpg';
 import Background4 from '../../assets/img/bg4.jpg';
 import './styles.css';
-
+import ImovelCard from '../ImóveisELotes/ImovelCard';
 
 function Home() {
+  const imoveis = [
+    {
+      titulo: 'Casa na Praia',
+      endereco: 'Rua das Gaivotas, 123',
+      preco: 'R$ 500.000',
+      descricao: 'Uma linda casa com vista para o mar.',
+      imagem: 'link-para-imagem-1.jpg',
+    },
+    {
+      titulo: 'Apartamento no Centro',
+      endereco: 'Avenida Principal, 456',
+      preco: 'R$ 300.000',
+      descricao: 'Apartamento bem localizado, próximo a tudo.',
+      imagem: 'link-para-imagem-2.jpg',
+    },
+  ]
   const [currentBackground, setCurrentBackground] = useState(0);
 
   useEffect(() => {
@@ -31,7 +46,7 @@ function Home() {
 
       <nav className='navbar'>
         <ul className='navList'>
-          <h1>Habitex<span>group</span></h1>
+          <img src={Logo} alt="logo-habitex" className='logo'/>
           <li><a href="#QuemSomos">Quem Somos</a></li>
           <li><a href="#Imóveis e Lotes">Imóveis e Lotes</a></li>
           <a href="https://www.instagram.com/habitexgroup/">
@@ -50,7 +65,19 @@ function Home() {
       </section>
       <section id="Imóveis e Lotes" className="section">
         <div className="lotes">
-          <ImóveisELotes />
+        <h1>Nossos Lotes</h1>
+        <h2>Encontre o ideal para você ⤵ </h2>
+        
+          {imoveis.map((imovel, index) => (
+        <ImovelCard
+          key={index}
+          titulo={imovel.titulo}
+          endereco={imovel.endereco}
+          preco={imovel.preco}
+          descricao={imovel.descricao}
+          imagem={imovel.imagem}
+        />
+      ))}
         </div>
       </section>
       <div className='background'>

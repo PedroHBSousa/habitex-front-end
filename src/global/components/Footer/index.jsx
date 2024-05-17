@@ -14,11 +14,6 @@ function Footer() {
         <p>&copy; 2024 HabitexGroup. Todos os direitos reservados.</p>
       </div>
       </section>
-      <section className="icons">
-        <div className="content">
-        <FaWhatsapp className='content' />
-        </div>
-      </section>
       
     </div>
   );
