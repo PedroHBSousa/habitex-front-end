@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/%7Bhabitex-front-end%7D/static/css/main.e1cfdcb3.css",
-    "main.js": "/%7Bhabitex-front-end%7D/static/js/main.044b944a.js",
-    "static/js/453.e0af4302.chunk.js": "/%7Bhabitex-front-end%7D/static/js/453.e0af4302.chunk.js",
-    "static/media/bg2.png": "/%7Bhabitex-front-end%7D/static/media/bg2.c2dd45936c9dbc0d7ff9.png",
-    "static/media/bg.png": "/%7Bhabitex-front-end%7D/static/media/bg.62c4eca5b8df35115a4f.png",
-    "static/media/bg4.png": "/%7Bhabitex-front-end%7D/static/media/bg4.5cfc29f76884f5f11ff3.png",
-    "static/media/bg3.png": "/%7Bhabitex-front-end%7D/static/media/bg3.826d00e628fd019e5fa6.png",
-    "static/media/aboutus.jpg": "/%7Bhabitex-front-end%7D/static/media/aboutus.0589c9d9f7f67eb1dec9.jpg",
-    "static/media/img1.jpg": "/%7Bhabitex-front-end%7D/static/media/img1.cbf91fc48f2b1d8e27a7.jpg",
-    "static/media/logo 1.svg": "/%7Bhabitex-front-end%7D/static/media/logo 1.6d5cd77dd03ac23018f49e78849de2f8.svg",
-    "index.html": "/%7Bhabitex-front-end%7D/index.html",
-    "main.e1cfdcb3.css.map": "/%7Bhabitex-front-end%7D/static/css/main.e1cfdcb3.css.map",
-    "main.044b944a.js.map": "/%7Bhabitex-front-end%7D/static/js/main.044b944a.js.map",
-    "453.e0af4302.chunk.js.map": "/%7Bhabitex-front-end%7D/static/js/453.e0af4302.chunk.js.map"
+    "main.css": "/habitex-front-end/static/css/main.e1cfdcb3.css",
+    "main.js": "/habitex-front-end/static/js/main.b0d759d9.js",
+    "static/js/453.e0af4302.chunk.js": "/habitex-front-end/static/js/453.e0af4302.chunk.js",
+    "static/media/bg2.png": "/habitex-front-end/static/media/bg2.c2dd45936c9dbc0d7ff9.png",
+    "static/media/bg.png": "/habitex-front-end/static/media/bg.62c4eca5b8df35115a4f.png",
+    "static/media/bg4.png": "/habitex-front-end/static/media/bg4.5cfc29f76884f5f11ff3.png",
+    "static/media/bg3.png": "/habitex-front-end/static/media/bg3.826d00e628fd019e5fa6.png",
+    "static/media/aboutus.jpg": "/habitex-front-end/static/media/aboutus.0589c9d9f7f67eb1dec9.jpg",
+    "static/media/img1.jpg": "/habitex-front-end/static/media/img1.cbf91fc48f2b1d8e27a7.jpg",
+    "static/media/logo 1.svg": "/habitex-front-end/static/media/logo 1.6d5cd77dd03ac23018f49e78849de2f8.svg",
+    "index.html": "/habitex-front-end/index.html",
+    "main.e1cfdcb3.css.map": "/habitex-front-end/static/css/main.e1cfdcb3.css.map",
+    "main.b0d759d9.js.map": "/habitex-front-end/static/js/main.b0d759d9.js.map",
+    "453.e0af4302.chunk.js.map": "/habitex-front-end/static/js/453.e0af4302.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1cfdcb3.css",
-    "static/js/main.044b944a.js"
+    "static/js/main.b0d759d9.js"
   ]
 }
