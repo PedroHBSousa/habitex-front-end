@@ -19,8 +19,8 @@ function AboutUs() {
           <br />
           <br />
         Entre em contato conosco para começar sua jornada rumo à realização dos seus sonhos imobiliários. Descubra o luxo, a sofisticação e o conforto que esperam por você na Habitex.</p>
-        <a href="https://www.instagram.com/habitexgroup/">
-        <button href="https://www.instagram.com/habitexgroup/">Fale Conosco ❯ </button>
+        <a href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0">
+        <button href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0">Fale Conosco ❯ </button>
         </a>
       </div>
     </div>

@@ -17,10 +17,16 @@
     padding-left: 150px;
     color: #696969;
 }
+.main-text h6 {
+    color: #fff;
+    padding-top: 100px;
+    text-align: center;
+
+}
 
 .main-text span {
     color: #ffffff;
-    font-size: 27px;
+    font-size: 35px;
     
 }
 
@@ -32,12 +38,6 @@
     height: 1px; /* Altura da linha */
     background-color: #ffffff; /* Cor da linha (neste caso, preto) */
     width: 1250px;
-}
-.content-copy {
-    padding-top: 95px;
-    font-size: 10px;
-    color:#ffffff;
-    text-align: center;
 }
 
 .content {

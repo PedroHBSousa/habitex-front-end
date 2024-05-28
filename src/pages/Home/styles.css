@@ -1,15 +1,20 @@
 body {
-    overflow-x: hidden;/* Oculta a barra de rolagem horizontal */
+    overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
     max-width: 100%; /* Define a largura máxima do corpo para o tamanho da janela de visualização */
     margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .logo {
     width: 200px;
     display: flex;
     justify-content: left;
-    margin-right: 200px;
+    padding-top: 50px;
+    margin-right: 270px;
 }
+
 
 .container {
     position: relative;
@@ -20,55 +25,38 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: transparent;/* Cor de fundo com transparência */
+    background-color: transparent; /* Cor de fundo com transparência */
 }
 
 .navList {
     display: flex;
     justify-content: right;
-    padding: 50px 0;
+    padding-top: 0;
     padding-right: 300px;
     margin: 0;
-}
-
-
-.navList span {
-    font-size: 15px;
-    color: white;
-    text-transform: lowercase;
 }
 
 .navList li {
     text-align: center;
     list-style-type: none;
-    margin: 0 20px;
-}
-
-.navList li a {
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-    text-decoration: none;
-    color: white;
-
 }
 
 .navList li button {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    margin: -10px;
-}
-
-.navList li:last-child button {
+    font-size: 17px;
     font-weight: bold;
-    background-color: black;
+    background-color: transparent;
     color: white;
-    border-top-right-radius: 15px;
-    /* Arredonda a borda superior direita */
-    padding: 15px 50px;
-    /* Ajuste o preenchimento conforme necessário */
+    border-radius: 5px;
+    padding: 15px 30px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.navList li button:hover {
+    background-color: black; /* Cor de fundo preta ao passar o mouse */
+    color: white; /* Mantém a cor do texto branca */
 }
 
 .header {
@@ -76,6 +64,7 @@ body {
     z-index: 1;
 }
 
+/* ESTILOS BACKGROUNDS */
 .background-img {
     width: 100%;
     opacity: 1;
@@ -96,35 +85,22 @@ body {
     opacity: 0;
 }
 
-
 .background-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 45%;
-    background:linear-gradient(to bottom,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, 0.1) 20%,
-            rgba(0, 0, 0, 1) 65%);
-}
-
-*{
-    font-family: 'Montserrat', sans-serif;
-    padding: 0;
-    margin: 0;
+    height: 47%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 1) 65%);
 }
 
 /* ESTILOS DA ABA LOTES */
 .lotes {
     background-color: rgb(60, 60, 60);
-    height: 800px;
-    background-image: linear-gradient(to top,
-                rgba(0, 0, 0, 0) 0%,
-                rgba(0, 0, 0, 0.5) 85%,
-                rgba(0, 0, 0, 1) 100%);
-                
+    height: 900px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 1) 100%);
 }
+
 .lotes h1 {
     padding-left: 200px;
     padding-top: 100px;
@@ -141,7 +117,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 /* Estilos para a barra de rolagem */
 /* Tamanho da barra de rolagem */
 ::-webkit-scrollbar {
@@ -150,18 +125,15 @@ html {
 
 /* Estilo da trilha da barra de rolagem */
 ::-webkit-scrollbar-track {
-    background-color: #000000;
-    /* Cor de fundo */
+    background-color: #000000; /* Cor de fundo */
 }
 
 /* Estilo do botão de rolagem */
 ::-webkit-scrollbar-thumb {
-    background-color: #3d3d3d;
-    /* Cor do botão */
+    background-color: #3d3d3d; /* Cor do botão */
 }
 
 /* Estilo do botão de rolagem quando hover */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #747474;
-    /* Cor do botão quando hover */
+    background-color: #747474; /* Cor do botão quando hover */
 }

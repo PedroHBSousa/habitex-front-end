@@ -29,7 +29,7 @@ button {
 
 .content-aboutus {
     background-color:rgb(0, 0, 0)!important;
-    margin-top: 230px;
+    margin-top: 400px;
     padding-bottom: 100px;
     display: flex;
     top: 0;
@@ -60,6 +60,7 @@ button {
     margin-top: 50px;
     width: 400px;
     text-align: justify;
+    font-size: 20px;
 
 }
 
