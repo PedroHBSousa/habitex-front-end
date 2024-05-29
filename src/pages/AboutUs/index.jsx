@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../pages/AboutUs/styles.css';
-import AboutusBG from '../../assets/img/aboutus.jpg';
+import AboutusBG from '../../assets/img/aboutushabi.png';
 import Logo from '../../assets/img/logo 1.svg';
 
 

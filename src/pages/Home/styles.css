@@ -91,26 +91,54 @@ body {
     left: 0;
     width: 100%;
     height: 47%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 1) 65%);
+    background: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.1)15%,
+    rgba(0, 0, 0, 1) 60%);
+}
+
+.c-element {
+    width: 100%;
+    height: 100px; /* altura da faixa */
+    background-color: #000000; /* cor de fundo da faixa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.element2 {
+    border-top-left-radius: 10px;  /* Arredonda o canto superior esquerdo */
+    border-top-right-radius: 10px; /* Arredonda o canto superior direito */
+    position: absolute; /* Faz a faixa menor ser posicionada de forma absoluta */
+    width: 50%; /* metade do tamanho da faixa principal */
+    height: 100px; /* altura da faixa menor */
+    background-color:white; /* cor de fundo da faixa menor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.Icon {
+    padding-left: 10px;
+    width: 50px;
 }
 
 /* ESTILOS DA ABA LOTES */
 .lotes {
-    background-color: rgb(60, 60, 60);
-    height: 900px;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 1) 100%);
-}
-
-.lotes h1 {
-    padding-left: 200px;
-    padding-top: 100px;
-    color: white;
+    background-color:white;
+    height: 1000px;
+    padding-top: 50px;
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 1) 100%); */
 }
 
 .lotes h2 {
     padding-top: 30px;
-    padding-left: 200px;
-    color: white;
+    padding-left: 100px;
+    color: black;
 }
 
 html {

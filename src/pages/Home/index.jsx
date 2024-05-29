@@ -8,6 +8,7 @@ import Background from '../../assets/img/bg.png';
 import Background2 from '../../assets/img/bg2.png';
 import Background3 from '../../assets/img/bg3.png';
 import Background4 from '../../assets/img/bg4.png';
+import Icon from '../../assets/img/seta.svg'
 import './styles.css';
 import ImoveisELotes from '../ImoveisELotes/ImovelCard';
 //import ImóveisELotes from '../../pages/ImóveisELotes';
@@ -38,34 +39,46 @@ function Home() {
         <ul className='navList'>
           <img src={Logo} alt="logo-habitex" className='logo' />
           <li><button onClick={() => window.location.href="#QuemSomos"}>Quem Somos</button></li>
-<li><button onClick={() => window.location.href="#Imóveis e Lotes"}>Imóveis e Lotes</button></li>
-<li><button onClick={() => window.location.href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0"}>Fale Conosco</button></li>
+          <li><button onClick={() => window.location.href="#Imóveis e Lotes"}>Imóveis e Lotes</button></li>
+          <li><button onClick={() => window.location.href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0"}>Fale Conosco</button></li>
 
         </ul>
       </nav>
       <div className='header'>
         <Header />
       </div>
+
       <ScrollToTop smooth />
+
       <section id="QuemSomos" className="section">
         <div className="about-us">
           <AboutUs />
         </div>
       </section>
+
       <div className='background'>
         <div className="background-overlay"></div>
         <img src={backgrounds[currentBackground]} className='background-img' alt="Fundo do site" title="Fundo" />
         <img src={backgrounds[(currentBackground + 1) % backgrounds.length]} className={currentBackground === backgrounds.length - 1 ? 'background-img hidden' : 'background-img'} alt="Fundo do site" title="Fundo" hidden={currentBackground === backgrounds.length - 1} />
       </div>
+
+      <div className='c-element'>
+        <div className="element2">
+          <h1>Nossos imóveis</h1>
+          <img src={Icon} alt="Icon-element" className='Icon'/>
+        </div>
+      </div>
+
       <section id="Imóveis e Lotes" className="section">
         <div className="lotes">
-          <h1>Nossos Imóveis</h1>
-          <h2>Encontre o ideal para você ⤵ </h2>
+        
+          <h2>Encontre a melhor opção para você:</h2>
+
           <ImoveisELotes />
           
         </div>
-
       </section>
+
       <Footer />
     </div>
   );
