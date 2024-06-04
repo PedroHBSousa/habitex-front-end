@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ScrollToTop from "react-scroll-to-top";
-import Header from '../../global/components/Header';
+import Header from '../../global/Components/Header';
 import AboutUs from '../AboutUs';
-import Footer from '../../global/components/Footer';
+import Footer from '../../global/Components/Footer';
 import Logo from '../../assets/img/logo 1.svg';
 import Background from '../../assets/img/bg.png';
 import Background2 from '../../assets/img/bg2.png';
@@ -79,8 +79,12 @@ function Home() {
         </div>
       </section>
 
+      
+      <div className="footer">
       <Footer />
+      </div>
     </div>
+   
   );
 }
 

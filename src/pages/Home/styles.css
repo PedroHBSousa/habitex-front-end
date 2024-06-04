@@ -1,167 +1,223 @@
 body {
-    overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
-    max-width: 100%; /* Define a largura máxima do corpo para o tamanho da janela de visualização */
-    margin-bottom: 0;
-    font-family: 'Montserrat', sans-serif;
-    padding: 0;
-    margin: 0;
+  overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
+  max-width: 100%; /* Define a largura máxima do corpo para o tamanho da janela de visualização */
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
-    width: 200px;
-    display: flex;
-    justify-content: left;
-    padding-top: 50px;
-    margin-right: 270px;
+  width: 200px;
+  display: flex;
+  justify-content: left;
+  padding-top: 50px;
+  margin-right: 270px;
 }
 
-
 .container {
-    position: relative;
+  position: relative;
 }
 
 /* Estilos da barra de navegação */
 .navbar {
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: transparent; /* Cor de fundo com transparência */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Cor de fundo com transparência */
 }
 
 .navList {
-    display: flex;
-    justify-content: right;
-    padding-top: 0;
-    padding-right: 300px;
-    margin: 0;
+  display: flex;
+  justify-content: right;
+  padding-top: 0;
+  padding-right: 300px;
+  margin: 0;
 }
 
 .navList li {
-    text-align: center;
-    list-style-type: none;
+  text-align: center;
+  list-style-type: none;
 }
 
-.navList li button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    background-color: transparent;
-    color: white;
-    border-radius: 5px;
-    padding: 15px 30px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona uma transição suave */
+.navList li button  {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona uma transição suave */
 }
 
 .navList li button:hover {
-    background-color: black; /* Cor de fundo preta ao passar o mouse */
-    color: white; /* Mantém a cor do texto branca */
+  background-color: black; /* Cor de fundo preta ao passar o mouse */
+  color: white; /* Mantém a cor do texto branca */
 }
 
 .header {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 /* ESTILOS BACKGROUNDS */
 .background-img {
-    width: 100%;
-    opacity: 1;
-    transition: opacity 1s ease;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 2s ease;
 }
 
 .background {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
 }
 
 .background-img.hidden {
-    opacity: 0;
+  opacity: 0;
 }
 
 .background-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 47%;
-    background: linear-gradient(to bottom,
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 47%;
+  background: linear-gradient(
+    to bottom,
     rgba(0, 0, 0, 0) 10%,
-    rgba(0, 0, 0, 0.1)15%,
-    rgba(0, 0, 0, 1) 60%);
+    rgba(0, 0, 0, 0.1) 15%,
+    rgba(0, 0, 0, 1) 60%
+  );
 }
 
 .c-element {
-    width: 100%;
-    height: 100px; /* altura da faixa */
-    background-color: #000000; /* cor de fundo da faixa */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 20px;
+  width: 100%;
+  height: 100px; /* altura da faixa */
+  background-color: #000000; /* cor de fundo da faixa */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .element2 {
-    border-top-left-radius: 10px;  /* Arredonda o canto superior esquerdo */
-    border-top-right-radius: 10px; /* Arredonda o canto superior direito */
-    position: absolute; /* Faz a faixa menor ser posicionada de forma absoluta */
-    width: 50%; /* metade do tamanho da faixa principal */
-    height: 100px; /* altura da faixa menor */
-    background-color:white; /* cor de fundo da faixa menor */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    text-align: center;
+  border-top-left-radius: 10px; /* Arredonda o canto superior esquerdo */
+  border-top-right-radius: 10px; /* Arredonda o canto superior direito */
+  position: absolute; /* Faz a faixa menor ser posicionada de forma absoluta */
+  width: 50%; /* metade do tamanho da faixa principal */
+  height: 100px; /* altura da faixa menor */
+  background-color: white; /* cor de fundo da faixa menor */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
 }
 
 .Icon {
-    padding-left: 10px;
-    width: 50px;
+  padding-left: 10px;
+  width: 50px;
 }
 
 /* ESTILOS DA ABA LOTES */
 .lotes {
-    background-color:white;
-    height: 1000px;
-    padding-top: 50px;
-    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 1) 100%); */
+  background-color: white;
+  height: 1000px;
+  padding-top: 50px;
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 1) 100%); */
 }
 
 .lotes h2 {
-    padding-top: 30px;
-    padding-left: 100px;
-    color: black;
+  padding-top: 30px;
+  padding-left: 100px;
+  color: black;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Estilos para a barra de rolagem */
 /* Tamanho da barra de rolagem */
 ::-webkit-scrollbar {
-    width: 15px;
+  width: 15px;
 }
 
 /* Estilo da trilha da barra de rolagem */
 ::-webkit-scrollbar-track {
-    background-color: #000000; /* Cor de fundo */
+  background-color: #000000; /* Cor de fundo */
 }
 
 /* Estilo do botão de rolagem */
 ::-webkit-scrollbar-thumb {
-    background-color: #3d3d3d; /* Cor do botão */
+  background-color: #3d3d3d; /* Cor do botão */
 }
 
 /* Estilo do botão de rolagem quando hover */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #747474; /* Cor do botão quando hover */
+  background-color: #747474; /* Cor do botão quando hover */
+}
+/* MEDIA QUERRY RESPONSIVIDADE*/
+
+/* Iphone SE
+@media(width: 375px) {
+
+}
+*/
+@media screen and (max-width: 768px) {
+  
+  body {
+    overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
+    max-width: 100%;
+  }
+  .navList {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .navList li button{
+    font-size: 10px;
+    margin: 0 10px 0 0;
+  }
+  
+  .logo {
+    margin-right: 100px;
+    width: 20%;
+    padding: 0;
+  }
+
+  .Section1 {
+    /* padding: 0; */
+    margin: 0 0 0 75px;
+  }
+
+  .element2 h1{
+    font-size: 20px;
+  }
+  .background-img.hidden {
+    opacity: 0;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 47%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(0, 0, 0, 0.1) 15%,
+      rgba(0, 0, 0, 1) 45%
+    );
+  }
 }

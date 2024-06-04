@@ -59,3 +59,42 @@
     margin: 3px 0;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .lotes {
+        width: auto;
+        height: 600px;
+        padding: 0;
+
+    }
+
+    .property-list {
+        width: auto;
+        height: 50%;
+        gap: 20px;
+    }
+
+    .property-card.slim {
+        display: block;
+        width: 200px;
+        height: 420px;
+    }
+     
+    .property-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .lotes h2 {
+        font-size: 20px;
+    }
+
+    .property-list {
+        padding: 0 0 0 0;
+    }
+
+    .property-card.slim p {
+        font-size: 15px;
+    }
+}

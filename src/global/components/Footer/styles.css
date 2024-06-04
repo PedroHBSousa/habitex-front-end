@@ -43,3 +43,45 @@
 .content {
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .main-text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-text h1 {
+        font-size: 20px;
+        padding: 0;
+        margin: 20px 0 20px 20px;
+
+    }
+
+    .main-text span {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    h6 {
+        font-size: 10px;
+        display: flex;
+        color: #fff;
+        justify-content: flex-start;
+        padding-left: 250px;
+        padding-bottom: 5px;
+        margin: 0 0 0 0;
+       
+    }
+
+    .linha-separadora {
+    margin: 0px 0; /* Espaçamento acima e abaixo da linha */
+    margin-left: 20px;
+    margin-right: 150px;
+    border: none; /* Remove a borda padrão */
+    height: 1px; /* Altura da linha */
+    background-color: #ffffff; /* Cor da linha (neste caso, preto) */
+    width: 720px;
+}
+
+    
+}

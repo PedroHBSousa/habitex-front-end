@@ -15,3 +15,12 @@
     padding-top: 450px;
 }
 
+@media screen and (max-width: 768px) {
+
+    .Section1 {
+        display: grid;
+        font-size: 10px;
+        padding-top: 25%;
+        padding-right: 200px;
+    }
+}
