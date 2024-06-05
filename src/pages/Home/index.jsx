@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ScrollToTop from "react-scroll-to-top";
-import Header from '../../global/Components/Header';
+import Header from '../../global/components/Header';
 import AboutUs from '../AboutUs';
-import Footer from '../../global/Components/Footer';
+import Footer from '../../global/components/Footer';
 import Logo from '../../assets/img/logo 1.svg';
 import Background from '../../assets/img/bg.png';
 import Background2 from '../../assets/img/bg2.png';
@@ -38,9 +38,9 @@ function Home() {
       <nav className='navbar'>
         <ul className='navList'>
           <img src={Logo} alt="logo-habitex" className='logo' />
-          <li><button onClick={() => window.location.href="#QuemSomos"}>Quem Somos</button></li>
-          <li><button onClick={() => window.location.href="#Imóveis e Lotes"}>Imóveis e Lotes</button></li>
-          <li><button onClick={() => window.location.href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0"}>Fale Conosco</button></li>
+          <li><button className='btn1' onClick={() => window.location.href="#QuemSomos"}>Quem Somos</button></li>
+          <li><button className='btn2' onClick={() => window.location.href="#Imóveis e Lotes"}>Imóveis e Lotes</button></li>
+          <li><button className='btn3' onClick={() => window.location.href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0"}>Fale Conosco</button></li>
 
         </ul>
       </nav>
