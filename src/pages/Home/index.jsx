@@ -11,8 +11,6 @@ import Background4 from '../../assets/img/bg4.png';
 import Icon from '../../assets/img/seta.svg'
 import './styles.css';
 import ImoveisELotes from '../ImoveisELotes/ImovelCard';
-//import ImóveisELotes from '../../pages/ImóveisELotes';
-//import ImovelCard from '../ImóveisELotes/ImovelCard';
 
 
 
@@ -36,14 +34,19 @@ function Home() {
     <div className='container'>
 
       <nav className='navbar'>
+        <img src={Logo} alt="logo-habitex" className="logo"/>
         <ul className='navList'>
-          <img src={Logo} alt="logo-habitex" className='logo' />
           <li><button className='btn1' onClick={() => window.location.href="#QuemSomos"}>Quem Somos</button></li>
           <li><button className='btn2' onClick={() => window.location.href="#Imóveis e Lotes"}>Imóveis e Lotes</button></li>
           <li><button className='btn3' onClick={() => window.location.href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0"}>Fale Conosco</button></li>
-
         </ul>
       </nav>
+
+      
+      <div className="mobile-menu">
+      <img src={Logo} alt="logo-habitex" className='logo-small'/>
+      </div>
+
       <div className='header'>
         <Header />
       </div>
