@@ -19,8 +19,9 @@ function ImoveisELotes() {
           <h2>Villas Del Sol</h2>
           <p>5 casas independentes De 222 a 326 m² 3 suítes Piscina privativa Espaço gourmet com churrasqueira.</p>
           <div className="contact-info">
-            <p><strong></strong> Rua Dr.Cantídio de Moura Campos, 350 - São Sebastião</p>
+            <p><strong>Rua Dr.Cantídio de Moura Campos, 350 - São Sebastião</strong> </p>
           </div>
+          <button href='' >Saiba Mais</button>
         </div>
       </div>
 
@@ -34,8 +35,10 @@ function ImoveisELotes() {
           <h2>Vizcaya Itaim</h2>
           <p>É o mais novo empreendimento alto padrão em uma das esquinas mais charmosas da cidade.</p>
           <div className="contact-info">
-            <p><strong></strong> Avenida Exemplo, 456, Subúrbio, Cidade, Estado</p>
+            <p><strong> Avenida Exemplo, 456, Subúrbio, Cidade, Estado</strong></p>
+  
           </div>
+          <button>Saiba Mais</button>
         </div>
       </div>
 
@@ -49,8 +52,9 @@ function ImoveisELotes() {
           <h2>Ar Ibirapuera</h2>
           <p>Luxuosa cobertura com vista para o mar, 2 quartos, 2 banheiros, e terraço privativo.</p>
           <div className="contact-info">
-            <p><strong></strong> Rua da Praia, 789, Praia, Cidade, Estado</p>
+            <p><strong>Rua da Praia, 789, Praia, Cidade, Estado</strong> </p>
           </div>
+          <button>Saiba mais</button>
         </div>
       </div>
     </div>
