@@ -83,5 +83,45 @@
     width: 720px;
 }
 
-    
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        width: auto;
+        height: auto;
+    }
+
+    .main-text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-text h1 {
+        font-size:15px;
+        padding: 0;
+        margin: 15px 0 15px 15px;
+    }
+
+    .main-text span {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .main-text h6 {
+
+        font-size: 10px;
+        padding: 40px 0 5px 115px;
+        color: #fff;
+        justify-content: center;
+    }
+
+    .linha-separadora {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none; /* Remove a borda padrão */
+    height: 0.5px; /* Altura da linha */
+    background-color: #ffffff; /* Cor da linha */
+    width: 95%;
+    position: absolute;
+    }
 }
