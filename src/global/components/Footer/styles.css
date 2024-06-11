@@ -89,6 +89,7 @@
     .footer {
         width: auto;
         height: auto;
+        padding: 0;
     }
 
     .main-text {
@@ -108,9 +109,8 @@
     }
 
     .main-text h6 {
-
         font-size: 10px;
-        padding: 40px 0 5px 115px;
+        padding: 40px 40px 5px 40px;
         color: #fff;
         justify-content: center;
     }
