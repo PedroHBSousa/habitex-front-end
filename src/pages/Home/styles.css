@@ -15,6 +15,7 @@ body {
   padding: 70px 0 0 0;
   margin: 0 0 0 200px;
   z-index: 1;
+
 }
 
 .container {
@@ -42,7 +43,9 @@ body {
   list-style-type: none;
 }
 
-.navList li .btn1, .btn2, .btn3  {
+.navList li .btn1,
+.btn2,
+.btn3 {
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
   font-weight: bold;
@@ -57,7 +60,7 @@ body {
 }
 
 .navList li button:hover {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
@@ -184,21 +187,23 @@ html {
 
 /* MEDIA QUERRY RESPONSIVIDADE*/
 @media screen and (max-width: 768px) {
-  
   body {
     overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
     max-width: 100%;
+  }
+  .navList li button:hover {
+    color: white;
   }
   .navList {
     padding: 10px;
     margin: 0;
   }
 
-  .navList li button{
+  .navList li button {
     font-size: 10px;
     margin: 0 10px 0 0;
   }
-  
+
   .logo {
     margin-right: 100px;
     width: 20%;
@@ -210,13 +215,13 @@ html {
     margin: 0 0 0 75px;
   }
 
-  .element2 h1{
+  .element2 h1 {
     font-size: 20px;
   }
   .background-img.hidden {
     opacity: 0;
   }
-  
+
   .background-overlay {
     position: absolute;
     top: 0;
@@ -238,82 +243,84 @@ html {
     max-width: 100%;
   }
 
-.navList {
+  .navList li button:hover {
+    color: white;
+  }
+
+  .navList {
     display: none;
   }
 
-.logo {
+  .logo {
     display: none;
   }
 
-.mobile-menu {
-  display:flex;
-  justify-content: center;
-  
-}
+  .mobile-menu {
+    display: flex;
+    justify-content: center;
+  }
 
-.mobile-menu .logo-small {
-  display:flex;
-  width: 200px;
-  padding-top: 50px;
-}
+  .mobile-menu .logo-small {
+    display: flex;
+    width: 200px;
+    padding-top: 50px;
+  }
 
-.mobile-menu-icon button {
-background-color: transparent;
-width: 30px;
-height: 30px;
-border: none;
-position: absolute; /* Adiciona posicionamento absoluto */
-right: 20px; /* Posiciona o botão à direita */
-top: 0;
-margin: 42.5px 10px 0 0;
-cursor: pointer;
-}
+  .mobile-menu-icon button {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    position: absolute; /* Adiciona posicionamento absoluto */
+    right: 20px; /* Posiciona o botão à direita */
+    top: 0;
+    margin: 42.5px 10px 0 0;
+    cursor: pointer;
+  }
 
-.Section1 {
-  font-size: 7px;
-  padding: 90px 0 0 0;
-  margin: 0 0 0 70px;
-}
+  .Section1 {
+    font-size: 7px;
+    padding: 90px 0 0 0;
+    margin: 0 0 0 70px;
+  }
 
-.container-header {
-  height: 200px;
-}
+  .container-header {
+    height: 200px;
+  }
 
-.background-img.hidden {
-  opacity: 0;
-}
-  
-.background-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 47%;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 5%,
-    rgba(0, 0, 0, 0.1) 20%,
-    rgba(0, 0, 0, 1) 29%
-  );
-}
+  .background-img.hidden {
+    opacity: 0;
+  }
 
-.c-element {
-  margin: 0 0 0 0;
-  height: 50px;
-}
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 47%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(0, 0, 0, 0.1) 20%,
+      rgba(0, 0, 0, 1) 29%
+    );
+  }
 
-.element2 {
-  height: 50px;
-}
+  .c-element {
+    margin: 0 0 0 0;
+    height: 50px;
+  }
 
-.element2 h1 {
-  font-size: 15px;
-}
+  .element2 {
+    height: 50px;
+  }
 
-.Icon {
-  padding-left: 10px;
-  width: 30px;
-}
+  .element2 h1 {
+    font-size: 15px;
+  }
 
+  .Icon {
+    padding-left: 10px;
+    width: 30px;
+  }
 }

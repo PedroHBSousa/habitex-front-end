@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
 import VizcayaItaim from '../src/pages/VizcayaItaim';
+import ArIbirapuera from '../src/pages/ArIbirapuera';
+import VillasDelSol from '../src/pages/VillasDelSol';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +17,18 @@ const router = createBrowserRouter([
   {
     path: "/VizcayaItaim",
     element: <VizcayaItaim />
-  }
+  },
+
+  {
+    path: "/ArIbirapuera",
+    element: <ArIbirapuera />
+  },
+
+  {
+    path: "/Villas",
+    element: <VillasDelSol />
+  } 
+  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
