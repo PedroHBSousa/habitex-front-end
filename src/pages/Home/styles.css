@@ -114,6 +114,9 @@ body {
   box-sizing: border-box;
   padding: 20px;
 }
+.element2 h1 {
+  color: white;
+}
 
 .element2 {
   border-top-left-radius: 10px; /* Arredonda o canto superior esquerdo */
@@ -121,7 +124,7 @@ body {
   position: absolute; /* Faz a faixa menor ser posicionada de forma absoluta */
   width: 50%; /* metade do tamanho da faixa principal */
   height: 100px; /* altura da faixa menor */
-  background-color: white; /* cor de fundo da faixa menor */
+  background-color: rgb(18, 18, 18); /* cor de fundo da faixa menor */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,10 +145,10 @@ body {
   /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 1) 100%); */
 }
 
-.lotes h2 {
+.lotes h1 {
   padding-top: 30px;
   padding-left: 100px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 html {
@@ -237,10 +240,40 @@ html {
   }
 }
 
+.hamburguer hamburguerIcon {
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   body {
     overflow-x: hidden;
     max-width: 100%;
+    margin: 0;
+  }
+
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    left: 1%;
+    margin: 45px 0 0;
+    flex-wrap: nowrap;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .list .listItems {
+    padding: 0;
+    list-style: none;
+  }
+
+  .list .listItems li {
+    margin: 2px 0;
+  }
+
+  .list .listItems li:hover {
+    margin: 2px 0;
   }
 
   .navList li button:hover {
@@ -258,38 +291,50 @@ html {
   .mobile-menu {
     display: flex;
     justify-content: center;
+    padding-right: 200px;
   }
 
-  .mobile-menu .logo-small {
+  .logo-small {
     display: flex;
     width: 200px;
-    padding-top: 50px;
+  
+    padding-top:30px;
+    margin-left: 0;
   }
 
-  .mobile-menu-icon button {
-    background-color: transparent;
+  .menu {
     width: 30px;
-    height: 30px;
-    border: none;
-    position: absolute; /* Adiciona posicionamento absoluto */
-    right: 20px; /* Posiciona o botão à direita */
-    top: 0;
-    margin: 42.5px 10px 0 0;
-    cursor: pointer;
+    color: white;
+
   }
 
   .Section1 {
-    font-size: 7px;
-    padding: 90px 0 0 0;
-    margin: 0 0 0 70px;
+    font-size: 12px;
+    padding: 300px 0 0 0 ;
+    margin: 0 40px 0 40px;
   }
 
   .container-header {
-    height: 200px;
+    height: 800px;
+  }
+.background-img {
+  width: 800px;
+  height: 700px;
+}
+
+ .background-img.hidden {
+    opacity: 0;
+    
   }
 
-  .background-img.hidden {
-    opacity: 0;
+  .background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
   }
 
   .background-overlay {
@@ -302,7 +347,7 @@ html {
       to bottom,
       rgba(0, 0, 0, 0) 5%,
       rgba(0, 0, 0, 0.1) 20%,
-      rgba(0, 0, 0, 1) 29%
+      rgba(0, 0, 0, 1) 65%
     );
   }
 

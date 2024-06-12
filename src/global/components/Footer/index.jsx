@@ -13,11 +13,6 @@ function Footer() {
         <h6>&copy; 2024 HabitexGroup. Todos os direitos reservados.</h6>
         </div>
       </section >
-      
-    
-      
-
-
     </div >
   );
 }
