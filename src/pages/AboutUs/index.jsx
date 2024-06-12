@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../pages/AboutUs/styles.css';
 import AboutusBG from '../../assets/img/aboutushabi.png';
-import Logo from '../../assets/img/logo 1.svg';
+
 
 
 function AboutUs() {
@@ -14,7 +14,7 @@ function AboutUs() {
 
       <div className="texto-principal">
         
-        <img src={Logo} alt="logo Habitex" className='logo-aboutus' />
+        <h1>Quem Somos</h1>
         <p>Na Habitex, não apenas negociamos imóveis, criamos lares que transcendem o comum, onde cada espaço é uma expressão do requinte e da praticidade.
         Explore nosso portfólio de propriedades e descubra um novo nível de excelência em imóveis de alto padrão. Seja parte da nossa história de sucesso na busca pelo lar perfeito.
           <br />

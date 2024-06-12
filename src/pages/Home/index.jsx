@@ -9,6 +9,7 @@ import Background2 from '../../assets/img/bg2.png';
 import Background3 from '../../assets/img/bg3.png';
 import Background4 from '../../assets/img/bg4.png';
 import Icon from '../../assets/img/seta.svg'
+// import IconMenu from '../../assets/img/icon-menu.svg';
 import './styles.css';
 import ImoveisELotes from '../ImoveisELotes/ImovelCard';
 
@@ -42,9 +43,9 @@ function Home() {
         </ul>
       </nav>
 
-      
       <div className="mobile-menu">
-      <img src={Logo} alt="logo-habitex" className='logo-small'/>
+        <img src={Logo} alt="logo-habitex" className='logo-small'/>
+        {/* <img src={IconMenu} className="menu"></img> */}
       </div>
 
       <div className='header'>
@@ -75,7 +76,7 @@ function Home() {
       <section id="Imóveis e Lotes" className="section">
         <div className="lotes">
         
-          <h2>Encontre a melhor opção para você:</h2>
+          <h1>Encontre a melhor opção para você:</h1>
 
           <ImoveisELotes />
           

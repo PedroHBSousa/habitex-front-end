@@ -32,12 +32,12 @@
 
 .linha-separadora {
     margin: 0px 0; /* Espaçamento acima e abaixo da linha */
-    margin-left: 150px;
+    margin-left: 5px;
     margin-right: 150px;
     border: none; /* Remove a borda padrão */
     height: 1px; /* Altura da linha */
     background-color: #ffffff; /* Cor da linha (neste caso, preto) */
-    width: 1250px;
+    width: 1500px;
 }
 
 .content {

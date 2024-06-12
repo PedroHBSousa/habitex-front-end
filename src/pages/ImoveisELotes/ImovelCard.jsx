@@ -8,6 +8,7 @@ import VillasImage from '../../assets/img/FACHADA VILLAS.jpg';
 
 
 
+
 function ImoveisELotes() {
 
   return (
@@ -34,7 +35,7 @@ function ImoveisELotes() {
         />
         <div className="property-details">
           <h2>Vizcaya Itaim</h2>
-          <p>É o mais novo empreendimento alto padrão em uma das esquinas mais charmosas da cidade.</p>
+          <p>Novo empreendimento alto padrão em uma das esquinas mais charmosas da cidade.</p>
           <div className="contact-info">
             <p><strong> Av. Horácio Lafer, 430 - Itaim Bibi, São Paulo - SP, 04538-082</strong></p>
   
