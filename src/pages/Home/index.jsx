@@ -11,8 +11,7 @@ import Background2 from '../../assets/img/bg2.png';
 import Background3 from '../../assets/img/bg3.png';
 import Background4 from '../../assets/img/bg4.png';
 import Icon from '../../assets/img/seta.svg';
-//import IconMenu from '../../assets/img/menu-icon.svg';
-import HamburgerMenu from '../../global/Components/HamburgerMenu/index';
+import HamburgerMenu from '../../global/components/HamburgerMenu/index';
 import './styles.css';
 import ImoveisELotes from '../ImoveisELotes/ImovelCard';
 
