@@ -124,13 +124,8 @@
     }
 
     .style {
-<<<<<<< HEAD
-        margin: 200px 0 0 0;
-        max-width: 60%;
-=======
         margin: 100px 0 0 0;
         width: 100%;
->>>>>>> 8fa0867c7b70637c0a417ea7d9b14fcbd6997a81
         height: 300px;
         z-index: 1;
     }
@@ -154,13 +149,8 @@
         width: 300px;
         height: 260px;
         font-size: 13px;
-<<<<<<< HEAD
-        margin: 350px 0 0 180px;
-        border-radius: 50px 30px 0 0;
-=======
         margin: 250px 0 0 0;
         border-radius: 0 30px 0 0;
->>>>>>> 8fa0867c7b70637c0a417ea7d9b14fcbd6997a81
     }
 
     .texto-principal .contact {

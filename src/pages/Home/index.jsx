@@ -11,6 +11,7 @@ import Background4 from '../../assets/img/bg4.png';
 import Icon from '../../assets/img/seta.svg'
 // import IconMenu from '../../assets/img/icon-menu.svg';
 import './styles.css';
+import HamgurgerMenu from '../../global/components/HamburgerMenu';
 import ImoveisELotes from '../ImoveisELotes/ImovelCard';
 
 
@@ -45,7 +46,7 @@ function Home() {
 
       <div className="mobile-menu">
         <img src={Logo} alt="logo-habitex" className='logo-small'/>
-        {/* <img src={IconMenu} className="menu"></img> */}
+        <HamgurgerMenu />
       </div>
 
       <div className='header'>
