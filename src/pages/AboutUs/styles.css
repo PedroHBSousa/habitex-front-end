@@ -125,7 +125,7 @@
     }
 
     .style {
-        margin: 100px 0 0 0;
+        margin: 200px 0 0 0;
         max-width: 60%;
         height: 300px;
         z-index: 1;
@@ -156,18 +156,18 @@
 
     .content-aboutus p {
         background-color: black;
-        padding: 20px;
+        padding:30px;
         width: 300px;
         height: 260px;
         font-size: 13px;
-        margin: 190px 0 0 180px;
-        border-radius: 0 30px 0 0;
+        margin: 350px 0 0 180px;
+        border-radius: 50px 30px 0 0;
     }
 
     .texto-principal .contact {
         height: 40px;
         font-size: 10px;
-        margin: 0 0 0 20px;
+        margin: 0 0 0 160px;
     }
 
 
