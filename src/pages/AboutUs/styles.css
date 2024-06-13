@@ -118,23 +118,34 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .content-aboutus {
+        height: 750px;
         margin: 0;
     }
 
     .style {
         margin: 100px 0 0 0;
-        width: 100%;
+        max-width: 60%;
         height: 300px;
         z-index: 1;
     }
 
+    .texto-principal h1 {
+        color: white;
+        font-size: 25px;
+        padding-left: 150px;
+        padding-top: 20px;
+    }
+
     .texto-principal {
-        font-size: 10px;
+        font-size: 20px;
         margin: 0 20px 0 0;
         width: 100%;
         position: absolute;
+    }
+    .texto-principal p {
+        font-size: 60px;
     }
 
     .logo-aboutus {
@@ -149,7 +160,7 @@
         width: 300px;
         height: 260px;
         font-size: 13px;
-        margin: 250px 0 0 0;
+        margin: 190px 0 0 180px;
         border-radius: 0 30px 0 0;
     }
 

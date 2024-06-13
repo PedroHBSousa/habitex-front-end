@@ -1,3 +1,5 @@
+// src/pages/Home/index.jsx
+
 import React, { useState, useEffect } from 'react';
 import ScrollToTop from "react-scroll-to-top";
 import Header from '../../global/Components/Header';
@@ -8,15 +10,13 @@ import Background from '../../assets/img/bg.png';
 import Background2 from '../../assets/img/bg2.png';
 import Background3 from '../../assets/img/bg3.png';
 import Background4 from '../../assets/img/bg4.png';
-import Icon from '../../assets/img/seta.svg'
-// import IconMenu from '../../assets/img/icon-menu.svg';
+import Icon from '../../assets/img/seta.svg';
+//import IconMenu from '../../assets/img/menu-icon.svg';
+import HamburgerMenu from '../../global/Components/HamburgerMenu/index';
 import './styles.css';
 import ImoveisELotes from '../ImoveisELotes/ImovelCard';
 
-
-
 function Home() {
-
   const [currentBackground, setCurrentBackground] = useState(0);
 
   useEffect(() => {
@@ -29,11 +29,8 @@ function Home() {
 
   const backgrounds = [Background, Background2, Background3, Background4]; // Adicione mais imagens conforme necessário
 
-
   return (
-
     <div className='container'>
-
       <nav className='navbar'>
         <img src={Logo} alt="logo-habitex" className="logo"/>
         <ul className='navList'>
@@ -45,7 +42,7 @@ function Home() {
 
       <div className="mobile-menu">
         <img src={Logo} alt="logo-habitex" className='logo-small'/>
-        {/* <img src={IconMenu} className="menu"></img> */}
+        <HamburgerMenu />
       </div>
 
       <div className='header'>
@@ -75,20 +72,15 @@ function Home() {
 
       <section id="Imóveis e Lotes" className="section">
         <div className="lotes">
-        
           <h1>Encontre a melhor opção para você:</h1>
-
           <ImoveisELotes />
-          
         </div>
       </section>
 
-      
       <div className="footer">
-      <Footer />
+        <Footer />
       </div>
     </div>
-   
   );
 }
 
