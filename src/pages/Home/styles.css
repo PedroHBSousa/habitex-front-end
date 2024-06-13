@@ -15,6 +15,7 @@ body {
   padding: 70px 0 0 0;
   margin: 0 0 0 200px;
   z-index: 1;
+
 }
 
 .container {
@@ -174,9 +175,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #747474; /* Cor do botão quando hover */
 }
-.mobile-menu {
-  display: none;
-}
+
 .mobile-menu-icon {
   display: none;
 }
@@ -241,15 +240,17 @@ html {
   }
 }
 
-@media (max-width: 480px) {
+.hamburguer hamburguerIcon {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
   body {
     overflow-x: hidden;
     max-width: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
   }
+
 
   .list {
     display: flex;
@@ -289,40 +290,41 @@ html {
 
   .mobile-menu {
     display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
-    
+    justify-content: center;
+    padding-right: 200px;
   }
 
   .logo-small {
     display: flex;
     width: 200px;
-    padding-top: 19px;
-    margin:0 0 0 230px;
-    
+  
+    padding-top:30px;
+    margin-left: 0;
   }
 
   .menu {
-    margin:30px;
     width: 30px;
+    color: white;
+
   }
 
   .Section1 {
-    font-size: 17px;
-    padding: 300px 0 0 0;
-    margin: 0 40px 0 30px;
+    font-size: 12px;
+    padding: 300px 0 0 0 ;
+    margin: 0 40px 0 40px;
   }
 
   .container-header {
     height: 800px;
   }
-  .background-img {
-    width: 800px;
-    height: 700px;
-  }
+.background-img {
+  width: 800px;
+  height: 700px;
+}
 
-  .background-img.hidden {
+ .background-img.hidden {
     opacity: 0;
+    
   }
 
   .background {

@@ -6,25 +6,20 @@
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  gap: 200px;
+  gap: 100px;
   justify-content: center;
 }
 
 .property-card.slim {
   border: 5px solid rgb(235, 232, 232);
   border-radius: 25px;
-  overflow: hidden;
-  width: 400px;
+  /* overflow: hidden; */
+  width: 500px;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.658); /* Adiciona uma sombra para destacar o card */
   background-color: rgb(235, 232, 232);
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transições */
   z-index: 10; /*Garante que o card esteja na frente de outros elementos */
 }
-
-/* .property-card.slim:hover {
-  transform: scale(1.05) rotate(2deg); /* Aumenta e gira ligeiramente */
-/* box-shadow: 0 10px 16px rgba(0, 0, 0, 0.3); Aumenta a sombra */
-/* } */
 
 .property-image {
   border-radius: 20px;
@@ -74,6 +69,25 @@
   color: white; /* Mantém a cor do texto branca */
 }
 
+/* Estilo do contêiner do carrossel */
+.custom-carousel .carousel {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.custom-carousel .carousel .control-dots .dot {
+  background: #fff; /* Cor de fundo das bolinhas */
+  border: 1px solid #000; /* Borda preta nas bolinhas */
+}
+
+/* Estilo dos controles de seta (anterior/próximo) */
+.custom-carousel .carousel .control-arrow.control-prev,
+.custom-carousel .carousel .control-arrow.control-next {
+  background: transparent; /* Fundo semi-transparente */
+}
+
+
 @media screen and (max-width: 768px) {
   .lotes {
     width: auto;
@@ -110,6 +124,7 @@
     font-size: 15px;
   }
 }
+
 
 @media screen and (max-width: 480px) {
   body {
