@@ -1,26 +1,39 @@
-*{
-    font-family: 'Montserrat', sans-serif;
-    padding: 0;
-    margin: 0;
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .container-header {
-    height: 380px;
+  height: 380px;
 }
 .Section1 {
-    text-align: justify;
-    font-size: 35px;
-    font-weight: 600;
-    color: white;
-    margin-left: 195px;
-    padding-top: 450px;
+  text-align: justify;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-left: 195px;
+  padding-top: 450px;
 }
 
 @media screen and (max-width: 768px) {
+  .Section1 {
+    display: grid;
+    font-size: 10px;
+    padding-top: 25%;
+    padding-right: 200px;
+  }
+}
 
-    .Section1 {
-        display: grid;
-        font-size: 10px;
-        padding-top: 25%;
-        padding-right: 200px;
+@media screen and (max-width: 480px) {
+  .Section1 h1 {
+    h1 {
+      color: rgb(0, 0, 0);
+      font-size: px;
+      width: 100%;
+      display: flex;
+      padding-top: 20px;
+      padding-left: 150px;
+      gap: 0;
     }
+  }
 }

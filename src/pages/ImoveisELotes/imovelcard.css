@@ -133,8 +133,13 @@
 
   .lotes {
     width: 100%;
-    height: 550px;
+    height: 700px;
     padding: 0;
+  }
+
+  .lotes h1{
+    font-size: 20px;
+    padding-left: 20px;
   }
 
   .lotes h2 {
@@ -172,7 +177,7 @@
   }
 
   .property-list {
-    padding: 0 0 0 0;
+    padding-top:20px;
   }
 
   .property-card.slim p {

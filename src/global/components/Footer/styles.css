@@ -98,21 +98,22 @@
     }
 
     .main-text h1 {
-        font-size:15px;
+        font-size: 25px;
         padding: 0;
         margin: 15px 0 15px 15px;
     }
 
     .main-text span {
-        font-size: 15px;
+        font-size: 25px;
         padding-top: 5px;
     }
 
-    .main-text h6 {
+    .copyright h6{
         font-size: 10px;
-        padding: 40px 40px 5px 40px;
         color: #fff;
         justify-content: center;
+        padding-top: 50px;
+        width: 100%;
     }
 
     .linha-separadora {
