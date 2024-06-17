@@ -69,7 +69,7 @@ function Home() {
 
       <div className='c-element'>
         <div className="element2">
-          <h1>Nossos imóveis</h1>
+          <h2>Nossos imóveis</h2>
           <img src={Icon} alt="Icon-element" className='Icon'/>
         </div>
       </div>
