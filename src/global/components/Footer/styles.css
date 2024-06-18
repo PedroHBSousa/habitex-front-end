@@ -88,7 +88,7 @@
 @media screen and (max-width: 480px) {
     .footer {
         width: auto;
-        height: auto;
+        height: 200px;
         padding: 0;
     }
 
@@ -113,7 +113,7 @@
         color: #fff;
         justify-content: center;
         padding-top: 50px;
-        width: 100%;
+        
     }
 
     .linha-separadora {

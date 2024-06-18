@@ -78,6 +78,7 @@ function Home() {
         <div className="lotes">
         
           <h1>Encontre a melhor opção para você:</h1>
+        
 
           <ImoveisELotes />
           

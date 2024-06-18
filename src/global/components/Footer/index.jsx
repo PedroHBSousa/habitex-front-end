@@ -12,7 +12,7 @@ function Footer() {
         <hr class="linha-separadora"></hr>
         </div>
         <div className="copyright">
-        <h6>&copy; 2024 HabitexGroup. Todos os direitos reservados.</h6>
+        {/* <h6>&copy; 2024 HabitexGroup. Todos os direitos reservados.</h6> */}
         </div>
       </section >
     </div >

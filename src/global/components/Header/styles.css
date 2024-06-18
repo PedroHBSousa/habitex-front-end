@@ -26,14 +26,12 @@
 
 @media screen and (max-width: 480px) {
   .Section1 h1 {
-    h1 {
-      color: rgb(0, 0, 0);
-      font-size: px;
-      width: 100%;
+      color: rgb(255, 255, 255);
+      font-size: 27px;
       display: flex;
       padding-top: 20px;
-      padding-left: 150px;
-      gap: 0;
-    }
+      padding-left: 10px;
+      text-align: start;
+    
   }
 }

@@ -123,15 +123,20 @@
 .content-aboutus h1 {
     color: white;
     display: flex;
-    padding-top: 30px;
-    padding-left: 160px;
+    padding-top: 20px;
+    padding-left: 110px;
 }
   .style {
-    max-width: 100%;
+    max-width: 97%;
     height: 400px;
     z-index: 1;
     border-radius: 80px ;
-    margin:50px 0 0 0;
+    margin:20px 0 0 7px;
+  }
+
+  .texto-principal p{
+    margin: 0 0 0 90px;
+    height: 270px;
   }
 
   .texto-principal {
@@ -158,4 +163,6 @@
     font-size: 10px;
     margin: 0 0 0 160px;
   }
+  
+  
 }

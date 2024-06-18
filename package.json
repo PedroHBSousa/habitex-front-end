@@ -18,12 +18,12 @@
     "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "set NODE_OPTIONS=--max-old-space-size=8192 react-scripts build",
+      "test": "set NODE_OPTIONS=--max-old-space-size=8192 react-scripts test"
+    },
+
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gh-pages": "^6.1.1"
   }
 }
