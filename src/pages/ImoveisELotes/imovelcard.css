@@ -154,7 +154,7 @@
     margin-top: 45px;
     flex-wrap: nowrap;
     justify-content: left;
-    /* overflow-x: hidden; */
+    padding: 20px;
   }
 
   .property-list::-webkit-scrollbar {

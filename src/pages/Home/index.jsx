@@ -8,8 +8,6 @@ import Background from '../../assets/img/bg.png';
 import Background2 from '../../assets/img/bg2.png';
 import Background3 from '../../assets/img/bg3.png';
 import Background4 from '../../assets/img/bg4.png';
-import Icon from '../../assets/img/seta.svg'
-// import IconMenu from '../../assets/img/icon-menu.svg';
 import './styles.css';
 import HamgurgerMenu from '../../global/components/HamburgerMenu';
 import ImoveisELotes from '../ImoveisELotes/ImovelCard';
@@ -70,7 +68,6 @@ function Home() {
       <div className='c-element'>
         <div className="element2">
           <h2>Nossos imóveis</h2>
-          <img src={Icon} alt="Icon-element" className='Icon'/>
         </div>
       </div>
 

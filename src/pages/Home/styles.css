@@ -114,7 +114,7 @@ body {
   box-sizing: border-box;
   padding: 20px;
 }
-.element2 h1 {
+.element2 h2 {
   color: white;
 }
 
@@ -131,12 +131,6 @@ body {
   padding: 10px;
   text-align: center;
 }
-
-.Icon {
-  padding-left: 10px;
-  width: 50px;
-}
-
 /* ESTILOS DA ABA LOTES */
 .lotes {
   background-color: white;
@@ -181,8 +175,9 @@ html {
 }
 
 .mobile-menu {
-    display: none;
+  display: none;
 }
+
 .navList2 {
   display: none;
 }
@@ -257,7 +252,6 @@ html {
     box-sizing: border-box;
   }
 
-
   .list {
     display: flex;
     flex-direction: column;
@@ -323,10 +317,10 @@ html {
     height: 800px;
   }
   
-.background-img {
-  width: 800px;
-  height: 700px;
-}
+  .background-img {
+    width: 800px;
+    height: 700px;
+  }
 
  .background-img.hidden {
     opacity: 0;
@@ -353,7 +347,7 @@ html {
       to bottom,
       rgba(0, 0, 0, 0) 5%,
       rgba(0, 0, 0, 0.1) 20%,
-      rgba(0, 0, 0, 1) 61%
+      rgba(0, 0, 0, 1) 55%
     );
   }
 
@@ -376,4 +370,8 @@ html {
     width: 30px;
     color: white;
   }
+}
+
+.container .scroll-to-top {
+  display: none;
 }
