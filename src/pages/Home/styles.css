@@ -187,6 +187,81 @@ html {
 }
 
 /* MEDIA QUERRY RESPONSIVIDADE*/
+@media screen and (max-width: 1200px) {
+  .logo {
+    position: absolute;
+    width: 250px;
+    display: flex;
+    justify-content: left;
+    padding: 77px 0 0 0;
+    margin: 0 0 0 90px;
+    z-index: 1;
+  
+  
+  }
+  
+  .container {
+    position: relative;
+  }
+  /* Estilos da barra de navegação */
+  
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Cor de fundo com transparência */
+}
+
+.navList {
+  display: flex;
+  justify-content: right;
+  padding-top: 0;
+  padding-right: 50px;
+  margin: 0 0 0 0;
+}
+
+.navList li {
+  text-align: center;
+  list-style-type: none;
+}
+
+.navList li .btn1,
+.btn2,
+.btn3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 30px;
+  margin: 60px 15px 0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.navList li button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+
+  .background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 47%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.1) 15%,
+    rgba(0, 0, 0, 1) 32%
+  );
+}
+}
+
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
@@ -244,12 +319,10 @@ html {
 }
 
 @media screen and (max-width: 480px) {
-  body {
+
+  html, body {
+    width: 100%;    
     overflow-x: hidden;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
 
   .list {
@@ -298,7 +371,7 @@ html {
     display: flex;
     width: 200px;
     padding-top:19px;
-    margin-left:230px;
+    margin-left: 120px;
   }
 
   .menu {
@@ -347,7 +420,7 @@ html {
       to bottom,
       rgba(0, 0, 0, 0) 5%,
       rgba(0, 0, 0, 0.1) 20%,
-      rgba(0, 0, 0, 1) 55%
+      rgba(0, 0, 0, 1) 53%
     );
   }
 

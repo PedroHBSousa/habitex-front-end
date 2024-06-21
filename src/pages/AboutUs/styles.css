@@ -43,7 +43,7 @@
 }
 
 .texto-principal:last-child .contact:hover {
-  background-color: rgb(255, 255, 255); /* Altera a cor de fundo */
+  background-color: rgb(130, 130, 130); /* Altera a cor de fundo */
   color: rgb(0, 0, 0); /* Altera a cor do texto */
 }
 
@@ -64,9 +64,6 @@
   );
 }
 
-.linha-separadora {
-  width: 10px;
-}
 
 .texto-principal h1 {
   color: white;
@@ -82,11 +79,44 @@
   text-align: justify;
   font-size: 20px;
 }
+@media screen and (max-width:1200px) {
+  .style {
+    width: 600px;
+
+  }
+  .texto-principal h1 {
+    color: white;
+    font-size: 40px;
+    padding-left: 160px;
+    padding-top: 110px;
+  }
+  .texto-principal button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-left: 190px;
+    margin-top: 50px;
+    color: white;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona a transição */
+  }
+
+  .texto-principal:last-child .contact {
+    font-weight: bold;
+    background-color: rgb(255, 255, 255); /* Corrigido para iniciar com fundo preto */
+    color: rgb(0, 0, 0); /* Corrigido para iniciar com texto branco */
+    border-radius: 5px; /* Arredonda a borda */
+    padding: 15px 50px; /* Ajuste o preenchimento conforme necessário */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona a transição */
+  }
+  
+}
 
 @media screen and (max-width: 768px) {
   .content-aboutus {
     margin: 0;
   }
+  
 
   .style {
     margin: 125px 0 0 0;
@@ -116,53 +146,69 @@
 @media screen and (max-width: 480px) {
   .content-aboutus {
     margin: 0;
-    height: 820px;
+    height: auto;
     display: block;
-}
+  }
 
-.content-aboutus h1 {
+  
+
+  .content-aboutus h1 {
     color: white;
     display: flex;
+    justify-content: center;
     padding-top: 20px;
-    padding-left: 110px;
-}
+    padding-left: 0; /* Centralizando o título */
+  }
+
   .style {
     max-width: 97%;
     height: 400px;
     z-index: 1;
-    border-radius: 80px ;
-    margin:20px 0 0 7px;
-  }
-
-  .texto-principal p{
-    margin: 0 0 0 90px;
-    height: 270px;
+    border-radius: 60px;
+    margin: 0 5px 0 5px; /* Centralizando a imagem */
   }
 
   .texto-principal {
-    font-size: 10px;
-    margin: 0 20px 0 0;
-    position: absolute;
-  }
-/* CARD */
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; /* Ajustando para centralizar a div */
+    text-align: center; /* Centralizando o texto */
+    max-width: 72%; /* Limite de largura para melhor visualização em dispositivos móveis */
 
+  }
+
+  .texto-principal p {
+    margin: 0;
+    height: auto; /* Ajustando a altura para conteúdo variável */
+  }
+
+  .texto-principal a {
+    text-decoration: none; /* Removendo a linha debaixo do link */
+  }
+
+  .texto-principal .contact {
+    display: inline-block;
+    height: 40px;
+    font-size: 14px;
+    margin: 20px auto; /* Centralizando o botão */
+    padding: 10px 20px; /* Ajustando o padding para o botão */
+    background-color: #888888; /* Adicione a cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remover a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor do mouse ao passar sobre o botão */
+  }
+
+  /* CARD */
   .card-aboutus {
     margin: 0;
     padding: 0;
   }
 
- 
   .logo-aboutus {
     margin: 0;
     padding: 0;
     visibility: hidden;
   }
-
-  .texto-principal .contact {
-    height: 40px;
-    font-size: 10px;
-    margin: 0 0 0 160px;
-  }
-  
-  
 }

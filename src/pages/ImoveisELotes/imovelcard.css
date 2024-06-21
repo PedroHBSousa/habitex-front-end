@@ -87,11 +87,33 @@
   background: transparent; /* Fundo semi-transparente */
 }
 
+@media screen and (max-width:1200px) {
+  .lotes {
+    height: fit-content;
+    width: auto;
+    padding: 0;
+  }
+  
+  .property-card.slim {
+    border: 5px solid rgb(235, 232, 232);
+    border-radius: 25px;
+    /* overflow: hidden; */
+    width: 700px;
+    box-shadow: 0 7px 6px rgba(0, 0, 0, 0.658); /* Adiciona uma sombra para destacar o card */
+    background-color: rgb(235, 232, 232);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transições */
+    z-index: 10; /*Garante que o card esteja na frente de outros elementos */
+  }
+  .property-list {
+    padding-bottom: 50px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .lotes {
     width: auto;
-    height: 600px;
+    height: fit-content;
     padding: 0;
   }
 

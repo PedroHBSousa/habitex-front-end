@@ -1,6 +1,6 @@
-// src/components/HamburgerMenu.jsx
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import IGIconImage from '../../../assets/img/instagram.svg'; // Certifique-se de que o caminho da imagem está correto
 
 const Menu = styled.div`
   display: flex;
@@ -16,6 +16,25 @@ const Menu = styled.div`
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   transition: transform 0.3s ease-in-out;
   z-index: 100;
+`;
+
+const IGIcon = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background: url(${IGIconImage}) no-repeat center center;
+  background-size: contain;
+  transition: transform 0.3s ease-in-out;
+  z-index: 100;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 const MenuItem = styled.a`
@@ -84,6 +103,7 @@ const HamburgerMenu = () => {
         <MenuItem href="#QuemSomos" onClick={() => setOpen(false)}>Quem Somos</MenuItem>
         <MenuItem href="#Imóveis e Lotes" onClick={() => setOpen(false)}>Imóveis e Lotes</MenuItem>
         <MenuItem href="https://api.whatsapp.com/send/?phone=5511977377113&text=Bom+dia%2C+poderiam+me+apresentar+alguns+im%C3%B3veis%3F&type=phone_number&app_absent=0" onClick={() => setOpen(false)}>Fale Conosco</MenuItem>
+        <IGIcon href="https://www.instagram.com/habitex.imoveis/" onClick={() => setOpen(false)} />
       </Menu>
     </>
   );

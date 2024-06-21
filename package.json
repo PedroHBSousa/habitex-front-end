@@ -20,8 +20,8 @@
   },
     "scripts": {
       "start": "react-scripts start",
-      "build": "set NODE_OPTIONS=--max-old-space-size=8192 react-scripts build",
-      "test": "set NODE_OPTIONS=--max-old-space-size=8192 react-scripts test"
+      "build": "react-scripts build",
+      "test": "react-scripts test"
     },
 
   "eslintConfig": {
